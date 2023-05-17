@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/denn1s/netlify-functions#readme",
   "dependencies": {
+    "mysql2": "^3.3.1",
     "netlify-cli": "^15.1.0"
   }
 }
