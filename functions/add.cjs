@@ -1,6 +1,6 @@
 module.exports.handler = async (event) => {
-  // event.body
-  // event.queryStringParameters
+  // POST event.body
+  // GET event.queryStringParameters
   const { a, b } = event.queryStringParameters
 
   const sum = parseInt(a, 10) + parseInt(b, 10)
