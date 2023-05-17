@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "echo 'dev'",
-    "build": "echo 'build'"
+    "build": "echo 'build'",
+    "dev-backend": "netlify dev"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/denn1s/netlify-functions/issues"
   },
-  "homepage": "https://github.com/denn1s/netlify-functions#readme"
+  "homepage": "https://github.com/denn1s/netlify-functions#readme",
+  "dependencies": {
+    "netlify-cli": "^15.1.0"
+  }
 }
