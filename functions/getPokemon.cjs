@@ -16,7 +16,7 @@ exports.handler = async () => {
 
   const conn = await pooll.getConnection()
 
-  const [rows] = conn.query("SELECT * FROM POKEMON")
+  const [rows] = conn.query("SELECT * FROM pokemon")
 
   conn.release()
 
